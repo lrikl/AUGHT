@@ -126,6 +126,20 @@
     &:focus::-webkit-input-placeholder {
         color: transparent
     }
+    &:focus::-webkit-input-placeholder {
+        color: transparent
+    }
+    &:focus::-moz-placeholder {
+    color: transparent
+    }
+    
+    &:focus:-moz-placeholder {
+    color: transparent
+    }
+    
+    &:focus:-ms-input-placeholder {
+    color: transparent
+    }
 }
 .search__btn {
     padding: 0 5px ;

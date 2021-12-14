@@ -181,6 +181,18 @@ body {
 .search__input:focus::-webkit-input-placeholder {
   color: transparent;
 }
+.search__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.search__input:focus::-moz-placeholder {
+  color: transparent;
+}
+.search__input:focus:-moz-placeholder {
+  color: transparent;
+}
+.search__input:focus:-ms-input-placeholder {
+  color: transparent;
+}
 
 .search__btn {
   padding: 0 5px;
@@ -563,6 +575,15 @@ body {
   color: #000000;
 }
 .footer-input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.footer-input:focus::-moz-placeholder {
+  color: transparent;
+}
+.footer-input:focus:-moz-placeholder {
+  color: transparent;
+}
+.footer-input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
