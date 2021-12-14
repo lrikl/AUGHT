@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Gramatika-Regular';
+    src: url('../fonts/Gramatika-Regular.eot');
+    src: url('../fonts/Gramatika-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gramatika-Regular.woff2') format('woff2'),
+        url('../fonts/Gramatika-Regular.woff') format('woff'),
+        url('../fonts/Gramatika-Regular.ttf') format('truetype'),
+        url('../fonts/Gramatika-Regular.svg#Gramatika-Regular') format('svg');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kudryashev Headline';
+    src: url('../fonts/KudryashevHeadline.eot');
+    src: url('../fonts/KudryashevHeadline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/KudryashevHeadline.woff2') format('woff2'),
+        url('../fonts/KudryashevHeadline.woff') format('woff'),
+        url('../fonts/KudryashevHeadline.ttf') format('truetype'),
+        url('../fonts/KudryashevHeadline.svg#KudryashevHeadline') format('svg');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Gramatika Demo Slanted';
+    src: url('../fonts/GramatikaDemo-Slanted.eot');
+    src: url('../fonts/GramatikaDemo-Slanted.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GramatikaDemo-Slanted.woff2') format('woff2'),
+        url('../fonts/GramatikaDemo-Slanted.woff') format('woff'),
+        url('../fonts/GramatikaDemo-Slanted.ttf') format('truetype'),
+        url('../fonts/GramatikaDemo-Slanted.svg#GramatikaDemo-Slanted') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+body {
+    font-family: 'Gramatika-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #E5E5E5;
+    color: #FFFFFF;
+    min-width: 375px;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1376px;
+    margin: 0 auto;
+}
+
+@import "head.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "media.scss";
+

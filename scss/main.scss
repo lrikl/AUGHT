@@ -1,0 +1,159 @@
+.decoration__list {
+    padding: 8px 0 126px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.decoration__item {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0F0D0D;
+}
+.news-cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 124px;
+}
+.news-cards__item {
+    max-width: 263px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-cards__item_big-card {
+    max-width: 541px;
+    margin-right: 294px;
+    margin-bottom: 124px;
+}
+.news-cards__img_shadow {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.news-cards__img {
+    margin-bottom: 8px;
+}
+.news-cards_date {
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 29px;
+}
+.news-cards_name {
+    font-family: 'Kudryashev Headline';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.news-description {
+    font-family: 'Gramatika Demo Slanted';
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 20px;
+    flex: 1;
+}
+.news-description_big-card {
+    max-width: 394px;
+}
+.news-btn {
+    display: flex;
+}
+.news-btn__link {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 2px 8px 4px 8px;
+    font-size: 14px;
+    line-height: 14px;
+    &:hover {
+        background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 100%);
+        border: none;
+        padding: 3px 9px 5px 9px;
+        color: #FFFFFF;
+        animation: btn_gradient 5s infinite linear; 
+        background-size: 400%; 
+    }
+}
+@keyframes btn_gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+.news-doublecards {
+    display: flex;
+    align-self: flex-start;
+}
+.news-doublecards__item {
+    margin-right: 15px;
+}
+.news-doublecards_margin {
+    margin: 0 295px 0 277px;
+    align-self: auto;
+}
+.interview {
+    background-image: url('../imgs/foto/gorbacheva.png');
+    background-size: cover;
+}
+.interview__title {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.interview__title_inter {
+    font-family: 'Kudryashev Headline';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 83px;
+}
+.interview__title_name-link {
+    font-family: 'Kudryashev Headline';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 83px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline;
+    transition: 0.5s;
+    &:hover {
+        transition: 0.5s;
+        color: #F0145A;
+    }
+}
+.interview__title_name {
+    text-align: right;
+}
+.interview__description {
+    font-style: italic;
+    max-width: 258px;
+    text-indent: 48px;
+    margin-bottom: 305px;
+}
+.interview__subdescription {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 32px;
+}
+.subtext-interview__description_margin {
+    margin-bottom: 40px;
+}
+.news-cards_under {
+    padding-top: 124px;
+}
+.news-cards__list_reverse {
+    flex-direction: row-reverse;
+}
+.news-cards__item_big-card_reverse {
+    margin-right: 0;
+    margin-left: 294px;
+}

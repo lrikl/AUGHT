@@ -1,0 +1,122 @@
+.footer {
+    background-color: #131313;
+    padding: 32px 32px 0 32px;
+}
+.footer-inside_bg {
+    background-color: #F3F3F3;
+    padding: 24px 40px 18px 24px;
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer-logo__link {
+    display: inline-block;
+    max-height: 101px;
+}
+.footer-text__list {
+    display: grid;
+	grid-template-columns: 100px 100px 80px;
+    grid-column-gap: 120px;
+}
+.footer-text__item {
+    margin-bottom: 18px;
+}
+.footer-text__link {
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s;
+    &:hover {
+        transition: 0.2s;
+        color: #F0145A;
+    }
+}
+.footer-input {
+    background-color: transparent;
+    width: 610px;
+    border: none;
+    display: inline-block;
+    padding: 0 35px 0 2px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid #000000;
+    &::placeholder {
+        font-family: 'Kudryashev Headline';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &:focus::-webkit-input-placeholder {
+        color: transparent
+    }
+}
+.your-email {
+    width: 610px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.footer-input__btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    cursor: pointer;
+}
+.footer-input__subdescription {
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 124px;
+}
+.hello-mail {
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.hello-mail__link {
+    font-family: 'Kudryashev Headline';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social__list {
+    display: flex;
+}
+.footer-social__item {
+    margin-right: 24px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.footer-social__link {
+    text-decoration: none;   
+    text-transform: uppercase;
+    color: #000000;
+    transition: 0.2s;
+}
+.footer-social__privacy {
+    margin-left: 65px;
+}
+.footer-social__link_hov-violet:hover {
+    transition: 0.2s;
+    color: #5435dd;
+}
+.footer-decoration__list {
+    padding: 53px 0 8px 0;
+}
+.footer-decoration__item {
+    color: #FFFFFF;
+}
+.footer-social__the-first {
+    display: inline-block;
+}
