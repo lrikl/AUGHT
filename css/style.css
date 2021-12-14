@@ -161,6 +161,10 @@ body {
   color: #F0145A;
 }
 
+.search-mobil {
+  display: none;
+}
+
 .search {
   display: flex;
   max-width: 111px;
@@ -888,6 +892,11 @@ body {
   }
 
   .search {
+    display: none;
+  }
+
+  .search-mobil {
+    display: flex;
     margin-left: 0;
     max-width: 180px;
     line-height: 17px;
@@ -1000,6 +1009,10 @@ body {
   }
   .footer-text__item:last-child {
     margin-bottom: 0;
+  }
+
+  .footer-decoration__list {
+    padding: 40px 0 8px 0;
   }
 }
 

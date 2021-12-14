@@ -107,6 +107,9 @@
         color: #F0145A;
     }
 }
+.search-mobil {
+    display: none;
+}
 .search {
     display: flex;
     max-width: 111px;
@@ -126,7 +129,7 @@
     &:focus::-webkit-input-placeholder {
         color: transparent
     }
-    &:focus::-webkit-input-placeholder {
+     &:focus::-webkit-input-placeholder {
         color: transparent
     }
     &:focus::-moz-placeholder {
